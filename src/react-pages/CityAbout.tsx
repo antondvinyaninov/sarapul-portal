@@ -8,7 +8,7 @@ export default function CityAbout() {
       
       {/* Sticky Top Mini-nav */}
       <div className="fixed top-0 inset-x-0 p-6 z-50 mix-blend-difference text-white">
-        <a href="/" className="inline-flex items-center gap-2 font-medium hover:opacity-70 transition">
+        <a href="/sarapul-portal/" className="inline-flex items-center gap-2 font-medium hover:opacity-70 transition">
           <ArrowLeft className="w-5 h-5" /> Вернуться на главную
         </a>
       </div>
@@ -17,9 +17,9 @@ export default function CityAbout() {
       <section className="relative w-full h-screen min-h-[700px] flex flex-col justify-end p-6 md:p-12 lg:p-24 overflow-hidden">
         <div className="absolute inset-0 z-0 bg-[#0a0a0a]">
           <img 
-            src="/sarapul-ship.jpg" 
-            alt="Кама и Теплоход" 
-            className="w-full h-full object-cover opacity-40 mix-blend-luminosity scale-105"
+            src="/sarapul-portal/sarapul-ship.jpg" 
+            alt="Sarapul hero background" 
+            className="w-full h-full object-cover saturate-50 contrast-125 mx-auto max-w-[1920px]" 
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent" />
         </div>
@@ -90,7 +90,7 @@ export default function CityAbout() {
           </motion.div>
           <motion.div initial={{ scale: 0.95, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once:true }} className="h-[400px] bg-neutral-100 rounded-[2.5rem] relative overflow-hidden group">
             <div className="absolute inset-0 bg-[#0a0a0a] z-0" />
-            <img src="/sarapul-ship.jpg" alt="Древняя Кама" className="w-full h-full object-cover opacity-30 mix-blend-luminosity grayscale group-hover:scale-110 transition duration-1000 z-10 relative" />
+            <img src="/sarapul-portal/sarapul-ship.jpg" alt="Древняя Кама" className="w-full h-full object-cover opacity-30 mix-blend-luminosity grayscale group-hover:scale-110 transition duration-1000 z-10 relative" />
             <div className="absolute inset-0 bg-gradient-to-tr from-black/80 to-transparent z-20 flex items-end p-8">
               <span className="text-white/60 font-medium tracking-widest uppercase">Археологическое наследие Прикамья</span>
             </div>

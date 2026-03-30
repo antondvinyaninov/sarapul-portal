@@ -31,10 +31,10 @@ export default function InnopolisGrid() {
                {/* Софт-градиент для идеального перехода черного фона в картинку */}
                <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#1a1a1a]/60 to-transparent z-10 pointer-events-none" />
                <img 
-                 src="/sarapul-bashenina.jpg" 
-                 onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1549646401-49b800ca3674?w=800&q=80" }}
-                 alt="Наследие и Культура" 
-                 className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
+                 src="/sarapul-portal/sarapul-bashenina.jpg" 
+                 alt="Дача Башенина" 
+                 loading="lazy"
+                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 saturate-[0.85] contrast-125"
                />
             </div>
 
